@@ -346,3 +346,42 @@ footer {
     flex-direction: column;
   }
 }
+/* Make the profile photo fill the whole card */
+.hero-card {
+  position: relative;
+  padding: 0 !important;
+  overflow: hidden;
+  aspect-ratio: 1 / 1;   /* square card, matches your square photo */
+  width: 100%;
+  max-width: 560px;
+  margin-left: auto;
+}
+
+.hero-card .profile-pic {
+  position: absolute;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
+  object-fit: cover;
+  object-position: center top;   /* keeps your face in frame */
+}
+
+.hero-card .card-glow {
+  display: none;
+}
+
+/* Caption sits on top of the photo, at the bottom */
+.hero-card p {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 60px 24px 22px;
+  color: #fff;
+  z-index: 2;
+  background: linear-gradient(to top, rgba(10, 12, 18, 0.9), transparent);
+}
