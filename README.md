@@ -72,9 +72,9 @@ Creative graphics for digital platforms.
 
 ## 🔗 Connect With Me
 
-[GitHub](https://github.com/SibteHassan)  
+[GitHub](https://ssibtehassan284.github.io/sibtehassan.github.io/)  
 [LinkedIn](www.linkedin.com/in/syed-sibtehassan-54ab90436)  
-[Behance](YOUR_BEHANCE_URL)
+[Behance](https://www.behance.net/syedsibtehassan1)
 
 ---
 
